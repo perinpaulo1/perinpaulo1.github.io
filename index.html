@@ -20,7 +20,7 @@
 				<!-- Intro -->
 					<div id="intro">
 						<h1>Welcome, I am Paulo !</h1>
-						<p> I am Brazilian/Italian passionate about creativity and data. I had my bachelor of Industrial Engineering and a MBA in Data Science & Analytics both by University of São Paulo, one of the most pristege universities in Latin America. My mindset is all about how to extract useful information through data and bring valuabe insights to the business, please take a look at my portfolio.
+						<p> I am Brazilian/Italian passionate about creativity and data. I had my bachelor of Industrial Engineering and a MBA in Data Science & Analytics both by University of São Paulo. I had the pleasure of working in some of the greatest company as Dell and Bosch, where I've met some extraordinary people. My mindset is all about how to extract useful information through data and bring valuabe insights to the business, please take a look at my portfolio.
 					</div>
 
 				<!-- Header -->
@@ -37,7 +37,7 @@
 						</ul>
 						<ul class="icons">
 							<li><a href="https://www.linkedin.com/in/paulo-perin-4851908a/" target="_blank" rel="external" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://github.com/perinpaulo1/perinpaulo1" target="_blank" rel="external" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 						</ul>
 					</nav>
 
@@ -47,20 +47,20 @@
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									<h2><a href="#">Data Project - How to identify the closest store to a customer
+									<h2><a href="https://nbviewer.org/github/perinpaulo1/perinpaulo1/blob/main/olist_data_case.ipynb"  target="_blank" rel="external">Data Project - Exploring data from E-commerce
 									</a></h2>
-									<p>In Kaggle there is the  </p>
+									<p>One of the most valuable data is the data from e-commerce, this is the reason that I've decided to choose a public dataset from Kaggle with 100k orders from Brazilian e-commerce. To explore the data set I've chosen to answer 3 questions that may help the seller and the customers. The 1st question was: Who are the customers from a specific vendor? the answer may help the vendor to build a more solid market strategy. The other 2 questions are related to how to help to meet the needs of a client, by showing a map with the closest vendor or showing the best price of a specific category of product. </p>
 								</header>
-								<a href="#" class="image main"><img src="images/mapReponsive.jpg" alt="" /></a>
+								<a href="https://nbviewer.org/github/perinpaulo1/perinpaulo1/blob/main/olist_data_case.ipynb" target="_blank" rel="external"class="image main"><img src="images/mapReponsive.jpg" alt="" /></a>
 								<ul class="actions special">
 									<li><a href="#" class="image fit"></a></li>
-									<p> Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
+									<p> To use it was required to apply ETL process to transform/clean the data and avoid mistakes. Once the data was ready to use, it was necessary to choose a system of coordinates that might bring the most accurate locations and distances. After some research, I've decided to follow the geodetic coordinate, since the geodetic takes the globe curves on its calculus, and for a more accurate location the geodesic coordinates system for Latin America, SIRGAS2000.Pandas is undeniably one of the most famous Python packages for data manipulation, for geo-location I used the geopandas a really useful package to work with geospatial data. <br><br>
+									To the 1st question, there is the class mycustomer using the seller_id, which creates an object with the method to create a data frame with the customers of a vendor. The data frame will provide the locations, the freight value, and how much that customer had spent. The class best_buy is answering the remaining question, with the customer id, the product category, the number of records, and the parameters of fast to get the closest vendor or best_price that will return the best prices near the customers. The object created by the best_buy class has two methods one to create a data frame with the information of the type of buy and another method that will plot a map with the customer and vendor's location.  </p>
 								</ul>
 							</article>
 
 					</div>
 
-				
 				<!-- Footer -->
 				<footer id="footer">
 					<section class="split contact">
